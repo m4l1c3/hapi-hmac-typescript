@@ -1,13 +1,15 @@
 import {IServerManager} from "./Interfaces/IServerManager";
 import {ServerManager} from "./Server/Server";
+import {CommandController} from "./Server/Controllers/CommandController";
 
 class CommandApi {
     ServerManager: IServerManager;
 
     constructor() {
         this.ServerManager = new ServerManager();
-        this.ServerManager.StartServer();
     }
 }
 
 let api = new CommandApi();
+api.ServerManager.RegisterController(new CommandController());
+api.ServerManager.StartServer();
