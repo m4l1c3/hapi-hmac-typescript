@@ -18,7 +18,8 @@
   "homepage": "https://github.com/m4l1c3/hapi-hmac-typescript#readme",
   "dependencies": {
     "hapi": "^16.6.2",
-    "hapi-auth-jwt2": "^7.3.0"
+    "hapi-auth-jwt2": "^7.3.0",
+    "hapi-auth-signature": "^2.1.2"
   },
   "devDependencies": {
     "@types/hapi": "^16.1.11",
