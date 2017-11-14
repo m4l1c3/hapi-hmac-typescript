@@ -1,0 +1,33 @@
+{
+  "name": "hapi-hmac-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m4l1c3/hapi-hmac-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m4l1c3/hapi-hmac-typescript/issues"
+  },
+  "homepage": "https://github.com/m4l1c3/hapi-hmac-typescript#readme",
+  "dependencies": {
+    "hapi": "^16.6.2",
+    "hapi-auth-jwt2": "^7.3.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^4.3.1",
+    "gulp-typescript": "^3.2.3",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1"
+  }
+}

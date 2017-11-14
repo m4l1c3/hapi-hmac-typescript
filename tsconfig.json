@@ -1,0 +1,8 @@
+{
+    "target": "ES6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "typeRoots": ["node_modules/@types"],
+    "noImplicitAny": false
+  }
