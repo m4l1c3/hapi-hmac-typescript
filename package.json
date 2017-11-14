@@ -21,13 +21,19 @@
     "hapi-auth-jwt2": "^7.3.0"
   },
   "devDependencies": {
+    "@types/hapi": "^16.1.11",
+    "@types/node": "^8.0.51",
     "coveralls": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-if": "^2.0.2",
     "gulp-mocha": "^4.3.1",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-tslint": "^8.1.2",
     "gulp-typescript": "^3.2.3",
     "istanbul": "^0.4.5",
     "mocha": "^4.0.1",
     "tslint": "^5.8.0",
-    "typescript": "^2.6.1"
+    "typescript": "^2.6.1",
+    "yargs": "^10.0.3"
   }
 }
